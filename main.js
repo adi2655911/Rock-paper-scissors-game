@@ -7,6 +7,8 @@ const btn = document.getElementsByClassName("btn");
 const para = document.getElementById("para");
 const result = document.querySelector("h2");
 
+const link = document.getElementsByClassName("credit");
+link.href = "mailto: adi2652004@gmail.com";
 
 const backup = ()=>{
   setTimeout(()=>{
