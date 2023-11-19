@@ -1,4 +1,4 @@
-alert("Loved it don't forget to like it on github adi2652004");
+alert("Loved it don't forget to like it on github adi2655911");
 const rock = document.getElementById("rock");
 const paper = document.getElementById("paper");
 const scissors= document.getElementById("scissors");
