@@ -68,10 +68,6 @@ else{
     result.textContent = "Tie!"
     backup()
   }
-  else{
-    result.textContent= 'server down';
-    backup()
-  }
   
 });
   paper.addEventListener("click",()=>{
@@ -94,10 +90,6 @@ else{
     result.textContent = "You won the game!"
     backup()
   }
-  else{
-    result.textContent= 'server down';
-    backup()
-  }
 });
   scissors.addEventListener("click",()=>{
   
@@ -117,10 +109,6 @@ else{
     image.src = "rock.webp";
     para.textContent= "";
     result.textContent = "You lose the game!"
-    backup()
-  }
-  else{
-    result.textContent= 'server down';
     backup()
   }
 });
