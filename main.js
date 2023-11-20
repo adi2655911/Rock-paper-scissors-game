@@ -17,7 +17,7 @@ const backup = ()=>{
   setTimeout(()=>{
     para.textContent = "Computer"
     result.textContent = "";
-    image.src = "../images/laughing8.gif";
+    image.src = "laughing8.gif";
   },2500);
 }
  
@@ -28,19 +28,19 @@ const backup = ()=>{
 if(cnf==true){
   
   rock.addEventListener("click",()=>{
-  image.src = "../images/paper.webp";
+  image.src = "paper.webp";
   para.textContent= "";
   result.textContent = "You lose the game!"
   backup()
 });
   paper.addEventListener("click",()=>{
-  image.src = "../images/scissors.webp";
+  image.src = "scissors.webp";
   para.textContent= "";
   result.textContent = "You lose the game!"
   backup()
 });
   scissors.addEventListener("click",()=>{
-  image.src = "../images/rock.webp";
+  image.src = "rock.webp";
   para.textContent= "";
   result.textContent = "You lose the game!"
   backup()
@@ -57,19 +57,19 @@ else{
 
   rock.addEventListener("click",()=>{
   if(index()==0){
-    image.src = "../images/paper.webp";
+    image.src = "paper.webp";
     para.textContent= "";
     result.textContent = "You lose the game!"
     backup()
   }
   else if(index()==1){
-    image.src = "../images/scissors.webp";
+    image.src = "scissors.webp";
     para.textContent= "";
     result.textContent = "You won the game!"
     backup()
   }
   else if(index()==2){
-    image.src = "../images/rock.webp";
+    image.src = "rock.webp";
     para.textContent= "";
     result.textContent = "Tie!"
     backup()
@@ -79,19 +79,19 @@ else{
   paper.addEventListener("click",()=>{
   
   if(index()==0){
-    image.src = "../images/paper.webp";
+    image.src = "paper.webp";
     para.textContent= "";
     result.textContent = "Tie!"
     backup()
   }
   else if(index()==1){
-    image.src = "../images/scissors.webp";
+    image.src = "scissors.webp";
     para.textContent= "";
     result.textContent = "You lose the game!"
     backup()
   }
   else if(index()==2){
-    image.src = "../images/rock.webp";
+    image.src = "rock.webp";
     para.textContent= "";
     result.textContent = "You won the game!"
     backup()
@@ -101,19 +101,19 @@ else{
   scissors.addEventListener("click",()=>{
   
   if(index()==0){
-    image.src = "../images/paper.webp";
+    image.src = "paper.webp";
     para.textContent= "";
     result.textContent = "You won the game!"
     backup()
   }
   else if(index()==1){
-    image.src = "../images/scissors.webp";
+    image.src = "scissors.webp";
     para.textContent= "";
     result.textContent = "Tie!"
     backup()
   }
   else if(index()==2){
-    image.src = "../images/rock.webp";
+    image.src = "rock.webp";
     para.textContent= "";
     result.textContent = "You lose the game!"
     backup()
